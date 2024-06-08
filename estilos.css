@@ -1,0 +1,365 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #000000;
+    min-height: 80vh;
+    max-width: auto;
+    overflow-x: hidden;
+    background-image: url(images/fondo-completo.png);
+    background-size: auto;
+    width: 100%;
+}
+
+
+.Logo {
+    width: 10vw;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+
+.blanco {
+    color: white;
+  }
+  
+.rojo {
+    color: red;
+  }
+
+
+.titulo {
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: white;
+    margin-top: 18.43vw;
+    font-size: 2.66vw;
+    margin-left: 15.55vw;
+}
+
+.titulo2 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: white;
+    margin-top: -2.29vw;
+    font-size: 2.66vw;
+    margin-left: 15.55vw;
+}
+
+.subt {
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: white;
+    margin-top: -1.30vw;
+    font-size: 1.61vw;
+    font-weight: 30;
+    margin-left: 15.55vw;
+}
+
+.titulo3 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: white;
+    font-size: 2.57vw;
+    margin-left: 15.55vw;
+    margin-top: -25.90vw;
+}
+
+.CTA {
+    background-color: #D21414;
+    padding: 0.29vw 8.57vw;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 1.71vw;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 15.55vw;
+}
+
+.separador {
+    display: block;
+    float: left; 
+    width: 109.29vw;
+    margin-top: 5vw;
+    margin-bottom: -40.57vw;
+    margin-left: -2.40vw;
+}
+
+.back-cards1 {
+    background-image: url(images/Proyectos.png);
+    background-size: 30vw;
+    background-repeat: no-repeat;
+}
+
+.back-cards2 {
+    background-image: url(images/Recursos.png);
+    background-size: 30vw;
+    background-repeat: no-repeat;
+}
+
+.back-cards3 {
+    background-image: url(images/Inspiracion.png);
+    background-size: 30vw;
+    background-repeat: no-repeat;
+}
+
+.back-cards4 {
+    background-image: url(images/Portfolio.png);
+    background-size: 30vw;
+    background-repeat: no-repeat;
+}
+
+.incard {
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: white;
+    font-size: 1.51vw;
+    padding-left: 2vw;
+}
+
+.incard h3 {
+    line-height: 2.3vw;
+    margin-bottom: -3.65vw;
+}
+
+.incard p {
+    line-height: 2vw;
+    margin-top: -1.43vw;
+    margin-bottom: 1vw;
+}
+
+.semib {
+    font-weight: 400;
+}
+
+.container-cards {
+    display: grid;
+    grid-template-columns: [pri] 43% [seg] 43%;
+    grid-template-rows: [fir] 55% [sec] 55%;
+    margin-left: 16.15vw;
+    margin-bottom: 15vw;
+}
+
+.titulo4 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: white;
+    font-size: 2.57vw;
+    margin-left: 15.55vw;
+    margin-top: -4.90vw;
+}
+
+.container-icons {
+    display: grid;
+    grid-template-columns: [ter] 38% [cua] 38%;
+    grid-template-rows: [thi] 47% [fou] 47%;
+    gap: 2vw;
+    justify-items: center;
+    align-items: center;
+    margin-left: 15.55vw;
+    margin-top: -2.82vw;
+}
+
+.icon {
+    display: grid;
+    grid-template-columns: 6vw auto;
+    gap: 1vw;
+    align-items: center;
+}
+
+.icon img {
+    width: 11.83vw;
+}
+
+
+.icon h3 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin: 5.55vw;
+    color: white;
+    text-align: left;
+    font-size: 2.27vw;
+}
+
+.coments img {
+    height: 17.29vw;
+    margin-left: 15.55vw;
+    margin-bottom: 2.29vw;
+    margin-top: 1.71vw;
+}
+
+.titulo5 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: white;
+    margin-top: 13.55vw;
+    font-size: 4vw;
+    margin-left: 17.29vw;
+}
+
+.titulo6 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: white;
+    margin-top: -4.35vw;
+    font-size: 4vw;
+    margin-left: 17.29vw;
+}
+
+.container-coments {
+    display: grid;
+    grid-template-columns: [coment1] 24% [coment3] 24% [coment3] 24%;
+}
+
+.footer {
+    position: absolute;
+    margin-left: 34.29vw;
+}
+
+.form-section {
+    display: grid;
+    min-height: auto;
+    justify-content: center;
+    margin-top: 2.86vw;
+    margin-left: -27.20vw;
+    color: white;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: [un] 55% [deux] 42%;
+    gap: 1.14vw;
+}
+
+.form-container {
+    display: grid;
+    gap: 8.57vw;
+    margin-top: 17.43vw;
+
+}
+
+.form-container label {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 1.14vw;
+}
+
+.form-container input, .form-container select {
+    width: 50%;
+    padding: 0.86vw;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 1.03vw;
+    margin-top: 0.57vw;
+    border: 1px solid #ccc;
+    border-radius: 0.29vw;
+}
+
+.form-container button {
+    background-color: #D21414;
+    padding: 0.57vw 07.70vw;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: auto;
+    font-style: normal;
+    font-size: 1.71vw;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 0vw;
+}
+
+.form-container button:hover {
+    background-color: #a01010;
+}
+
+.feedback {
+    background-image: url(images/fondo-feedback.png);
+    background-repeat: no-repeat;
+    background-size: 100vw 56vw;
+    background-position: 50% 0;
+    height: 56vw;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+.titulo7 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: white;
+    margin-top: 10.86vw;
+    font-size: 4.14vw;
+    margin-left: 26.57vw;
+}
+
+.titulo8 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: white;
+    margin-top: -68.43;
+    font-size: 4.14vw;
+    margin-left: 24.71vw;
+}
+
+.titulo9 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: white;
+    margin-top: -1.71vw;
+    font-size: 2.71vw;
+    font-weight: 30;
+    margin-left: 22.71vw;
+}
+
+.titulo10 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: white;
+    margin-top: -1.71vw;
+    font-size: 1.71vw;
+    font-weight: 30;
+    margin-left: 18.14vw;
+}
+
+
+.hidden {
+    display: none !important;
+}
+
+.back-arrow {
+    width: 17.14vw;
+    position: absolute;
+    top: 100;
+    left: 270;
+}
